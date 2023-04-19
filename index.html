@@ -2,26 +2,100 @@
 <meta charset="UTF-8">
 <title>TCJPD Links</title>
 <head>
-<link rel="stylesheet" href="css/mycss.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-</head>
+<style>
+.video-container {
+  position: absolute;
+  top: 50;
+  bottom: 0;
+  width: 75.1%;
+  height: 390px; 
+  overflow: hidden;
+  video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
 
-<nav>
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+}
+
+.overlay {
+  #background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+
+background-image: linear-gradient(to bottom right,#333,#f1f1f1);
+
+  opacity: .5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 15% 32px;
+  line-height: 1.5;
+  text-align: center;
+  :last-child { margin-bottom: 0; }
+  h1 {font-size: 32pt; font-weight: bold; text-shadow: 0 0 .3em #000; margin: 0 0 1em;}
+  p {font-size: 11pt;text-shadow: 0 0 .3em #000;margin: 1em 0;}
+  a {color: #fff;}
+}
+
+
+////////////////////////////////////////
+
+code { font-family: monospace; }
+
+
+</style>
+<link rel="stylesheet" href="css/mycss.css">
+<link rel="icon" type="image/png" sizes="96x96" href="css/favicon-96x96.png">
+</head>
+<div Style="background-color: #e0e0eb;">
+<div class="container" Style="background-color: #333;" > 
+
+
+<nav >
 <ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Team</a></li>
-<li><a href="#">Contact</a></li>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Services</a></li>
+	<li><a href="#">Team</a></li>
+	<li><a href="#">Contact</a></li>
 </ul>
 </nav>
+</div>	
+<body class="text-primary" >
+<div class="container">
+<div class="container" >
+<div class="video-container">
+<video autoplay loop muted>
+	<source src="images/videoplayback.mp4" type="video/mp4">
+	<!-- Add more sources for different file types -->
+</video>
+ <div class="overlay">
+    <h1 Style="color:white;">Travis County Juvenile Probation Dept</h1>
+    
+  </div>
+</div>
 
-<body >
-
-<div class="image"><img src="images/travis county.png"></div>
+<div class="image1"><img src="images/travis county.png"></div>
+	
+	
 <div class="container">
 
-<div class="container">
+<div class="container1">
 <button class="collapsible">Goodwill Program</button>
 	<div class="content">
 	<div  class="container">
@@ -29,29 +103,24 @@
 
 <div class="column">
 <h2>Links</h2>
-   <ul>
-     <li><a href="https://zoom.us" target="_blank">zoom.us</a></li>
-     <li><a href="https://www.austincc.edu/campaign/fast-track-careers" target="_blank">https://www.austincc.edu/campaign/fast-track-careers</a></li>
-     <li><a href="https://www.nccer.org" target="_blank">https://www.nccer.org</a></li>
-<li><a href="https://brainmanager.io/career-test?utm_source=bing&utm_medium=cpc&utm_campaign=career_test&msclkid=4425b8f899d812becc51db4fa7a56918&utm_term=career%20finder%20quiz&utm_content=career%20test%20exact" target="_blank">brainmanager.io</a></li>
-<li><a href="https://www.nonprofitaustin.org/certificates/grant-writing/" target="_blank">https://www.nonprofitaustin.org/</a></li>
-<li><a href="https://code.org" target="_blank">https://code.org</a></li>
-<li><a href="https://www.mindtools.com/pages/article/listening-quiz.htm" target="_blank">https://www.mindtools.com/pages/article/listening-quiz.htm</a></li>
-<li><a href="ttps://harvard.az1.qualtrics.com/jfe/form/SV_e35whN7tkXtvlHv" target="_blank">ttps://harvard.az1.qualtrics.com/</a></li>
-<li><a href="https://www.mynextmove.org/explore/ip" target="_blank">https://www.mynextmove.org/explore/ip</a></li>
-<li><a href="https://www.workintexas.com/vosnet/Default.aspx" target="_blank">https://www.workintexas.com/vosnet/Default.aspx</a></li>
-<li><a href="https://careerwise.minnstate.edu/jobs/practice-online-job-application.html" target="_blank">https://careerwise.minnstate.edu/jobs/practice-online-job-application.html</a></li>
-<li><a href="https://careerwise.minnstate.edu/jobs/practice-online-job-application.html" target="_blank">https://careerwise.minnstate.edu/jobs/practice-online-job-application.html</a></li>
-<li><a href="https://texasrealitycheck.com/" target="_blank">https://texasrealitycheck.com/</a></li>
-<li><a href="https://www.collegemajors101.com/" target="_blank">https://www.collegemajors101.com/</a></li>
-<li><a href="https://course.drivingquest.com/api/login" target="_blank">https://course.drivingquest.com/api/login</a></li>
-
-</ul>
+  <ul style="list-style-type: square;" >
+	
+	<li><a href="https://www.mindtools.com/pages/article/listening-quiz.htm" target="_blank">https://www.mindtools.com/pages/article/listening-quiz.htm</a></li>
+	<li><a href="https://harvard.az1.qualtrics.com/jfe/form/SV_e35whN7tkXtvlHv" target="_blank">https://harvard.az1.qualtrics.com/</a></li>
+	<li><a href="https://texasrealitycheck.com/" target="_blank">https://texasrealitycheck.com/</a></li>	
+	<li><a href="https://www.mynextmove.org/explore/ip" target="_blank">https://www.mynextmove.org/explore/ip</a></li>
+	<li><a href="https://careerwise.minnstate.edu/jobs/practice-online-job-application.html" target="_blank">https://careerwise.minnstate.edu/jobs/practice-online-job-application.html</a></li>
+	<li><a href="https://www.workintexas.com/vosnet/Default.aspx" target="_blank">https://www.workintexas.com/vosnet/Default.aspx</a></li>
+	<li><a href="https://gctatraining.org/" target="_blank">https://gctatraining.org/</a></li>
+	<li><a href="https://www.collegemajors101.com/" target="_blank">https://www.collegemajors101.com/</a></li>
+	<li><a href="https://www.austincc.edu/campaign/fast-track-careers" target="_blank">https://www.austincc.edu/campaign/fast-track-careers</a></li>
+	
+ </ul>
 
 </div>
 <div class="column">
 <h2>Goodwill Videos</h2>
-   <ul>
+   		<ul style="list-style-type: square;">
      
      <li><a href="https://www.viewpure.com/POjhTg_aReo?start=0&end=0" target="_blank">Communication Basics</a></li>
      <li><a href="https://www.viewpure.com/kWSqCf23G-o?start=0&end=0" target="_blank">Active Listening</a></li>
@@ -84,11 +153,11 @@
      <li><a href="https://www.viewpure.com/9sWqD137Wpw?start=0&end=0" target="_blank">Financial Aid</a></li>
      <li><a href="https://www.viewpure.com/XqfRVxFcVTE?start=0&end=0" target="_blank">Re-entry</a></li>
      <li><a href="https://www.viewpure.com/t46a5TQ0vxU?start=0&end=0" target="_blank">Indeed Lab</a></li>
-    </ul>
+   		</ul>
 
     </div>
 
-  </div>
+     </div>
 
 </div>
 <button class="collapsible">RES/DET Program</button>
@@ -97,7 +166,12 @@
 <div class="container">
 	<div class="column">
 		<h2>Links</h2>
-		<ul>
+		<ul style="list-style-type: square;">
+			<li><a href="https://drive.google.com" target="_blank">RES/DET - https://drive.google.com</a></li>
+			<li><a href="https://www.nccer.org" target="_blank">RES/DET - https://www.nccer.org</a></li>
+			<li><a href="https://etestsonline.org/html5/" target="_blank">RES/DET - https://etestsonline.org/html5/</a></li>
+			<li><a href="https://www.accuplacer.org/" target="_blank">RES/DET - https://www.accuplacer.org/</a></li>
+			<li><a href="https://www.collegemajors101.com" target="_blank">RES/DET - https://www.collegemajors101.com</a></li>
 			<li><a href="https://kahoot.com/schools-u/" target="_blank">RES/DET - https://kahoot.com/schools-u/</a></li>
 			<li><a href="https://www.austincc.edu/" target="_blank">RES/DET - https://www.austincc.edu/</a></li>
 			<li><a href="https://code.org" target="_blank">RES/DET - https://www.code.org</a></li>
@@ -113,7 +187,7 @@
 	
 	<div class="column">
 		<h2>RES/DET Videos</h2>
-		<ul>
+		<ul style="list-style-type: square;">
 			<li><a href="https://www.viewpure.com/F6GrGA0LpwI?start=0&end=0" target="_blank">RES/DET - Food Handlers Video English</a></li>
 			<li><a href="https://www.viewpure.com/6XmGT7lqO74?start=0&end=0" target="_blank">RES/DET - Food Handlers Video Spanish</a></li>
 		</ul>
@@ -142,17 +216,14 @@ for (i = 0; i < coll.length; i++) {
 
 
 </div>
+</div>
+</div>
 
 </div>
 
-<br><br><br><br><br>
+</div>
+
 <footer class="footer">
-    <div class="waves">
-      <div class="wave" id="wave1"></div>
-      <div class="wave" id="wave2"></div>
-      <div class="wave" id="wave3"></div>
-      <div class="wave" id="wave4"></div>
-    </div>
     <ul class="social-icon">
       <li class="social-icon__item"><a class="social-icon__link" href="#">
           <ion-icon name="logo-facebook"></ion-icon>
